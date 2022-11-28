@@ -13,7 +13,7 @@ public class ReverseNumber
 	public static void main(String[] args) 
 	{
 		/*
-		 * Taking user input using Scanner object
+		 * Taking user input Using Scanner Object
 		 */
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the number");
