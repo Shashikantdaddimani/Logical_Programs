@@ -19,7 +19,7 @@ public class PerfectNumber
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the number");
 		/*
-		 * declaring variable
+		 * Declaring variable
 		 */
 		int number = input.nextInt();
 		int sum =0;
