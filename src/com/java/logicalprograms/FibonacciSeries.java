@@ -23,13 +23,13 @@ public class FibonacciSeries
 		 */
 		int firstTerm=0;
 		int secondTerm=1;
-		System.out.println("Fibonacci series"+number+" term");
+		System.out.println("Fibonacci series "+number+" term");
 		/*
-		 * Logic for checking fibonacii series
+		 * Logic for checking Fibonacci series
 		 */
 		for(int i=1;i<=number;i++)
 		{
-			System.out.println(firstTerm+" ");
+			System.out.print(firstTerm+" ");
 			int nextTerm=firstTerm + secondTerm;
 			firstTerm=secondTerm;
 			secondTerm=nextTerm;
