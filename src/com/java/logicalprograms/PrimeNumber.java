@@ -19,10 +19,10 @@ public class PrimeNumber
 		System.out.println("Enter the number");
 		int number = input.nextInt();		
 	    boolean flag = false;
-	    for (int i = 2; i <= number / 2; i++) 
+	    for (int i = 2; i <= number-1; i++) 
 	    {
 	      /*
-	       *  condition for Non prime number
+	       *  Condition for Non prime number
 	       */
 	      if (number % i == 0) 
 	      {
