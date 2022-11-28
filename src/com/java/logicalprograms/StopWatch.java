@@ -13,9 +13,7 @@ public class StopWatch
 	 */
 	public static void main(String[] args) 
 	{	
-		/*
-		 * Taking user input using Scanner object
-		 */
+		
 		Scanner input = new Scanner(System.in);
 		/*
 		 * StopWatch Started at when entered 1
@@ -29,7 +27,7 @@ public class StopWatch
 		long startMillis = System.currentTimeMillis();
 		System.out.println("Stopwatch Started at :"+startMillis);
 		/*
-		 * StopWatch Stoped at when entered 0
+		 * StopWatch Stoped at when Entered 0
 		 */
 		System.out.println("Enter 0 to stop the Stopwatch");
 		watch = input.nextInt();
